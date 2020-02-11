@@ -2,7 +2,7 @@
 # Check if a number is prime
 # Prime numbers are 2, 3, 5, 7, 11, 13, ...
 
-p = 676
+p = 677
 m = 2
 isprime = True
 
