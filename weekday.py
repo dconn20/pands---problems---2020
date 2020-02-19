@@ -11,9 +11,9 @@ L={0:"Monday", 1:"Tuesday", 3:"Wednesday", 4:"Thursday", 5:"Friday", 6:"Saturday
 
 now = datetime.datetime.now()
 day = now.weekday
-weekend = (5, 7)
 
-if day < weekend
+
+if day == 5
     print ("Today is a week day")
     else:
         print ("Weekend")
