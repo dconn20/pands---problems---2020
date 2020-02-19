@@ -7,7 +7,8 @@
 import datetime
 import calendar
 
-dayname ={0:"Monday", 1:"Tuesday", 3:"Wednesday", 4:"Thursday", 5:"Friday", 6:"Saturday", 7:"Sunday"}
+
+dayname = {0:"Monday", 1:"Tuesday", 3:"Wednesday", 4:"Thursday", 5:"Friday", 6:"Saturday", 7:"Sunday"}
 
 now = datetime.datetime.now()
 day = now.weekday
