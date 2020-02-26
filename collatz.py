@@ -12,8 +12,8 @@ Z = 2
 while Y > 1:
     if Y % Z == 0:
         Y /= 2
-        print (Y) 
+        print (Y,end= '') 
 
     else:
         Y = (Y * 3) + 1
-        print (Y) 
+        print (Y,end= '')
