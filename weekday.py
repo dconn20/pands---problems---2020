@@ -1,20 +1,19 @@
-# Write a program that outputs whether or 
+# Damien Connolly
+# A program that outputs whether or 
 # not today is a weekday. 
-# An example of running this program on a 
-# Thursday is given below.
+
 
 
 import datetime
 import calendar
 
 
-dayname = {0:"Monday", 1:"Tuesday", 3:"Wednesday", 4:"Thursday", 5:"Friday", 6:"Saturday", 7:"Sunday"}
+dayname = {0:"Monday", 1:"Tuesday", 2:"Wednesday", 3:"Thursday", 4:"Friday", 5:"Saturday", 6:"Sunday"}
 
-now = datetime.datetime.now()
-day = now.weekday
+now = datetime.datetime.today().weekday()
 weekend = (5, 7)
 
-if day == weekend:
-    print ("Today is a week day")
+if now == weekend:
+    print ("Today is the Weekend")
 else:
-    print ("Weekend")
+    print ("Today is a weekday")
