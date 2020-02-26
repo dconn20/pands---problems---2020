@@ -4,7 +4,7 @@
 number = float(input("enter a positive number"))
 
 
-def f(x):
+def sqrt(x):
     return number ** 0.5
     ans = number ** 0.5
 
