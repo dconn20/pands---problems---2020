@@ -1,11 +1,13 @@
 # Damien Connolly
 # A funtion to square numbers
 
-number = float(input("enter a positive number"))
+n = float(input("enter a positive number"))
 
 
-def sqrt(x):
-    return number ** 0.5
-    ans = number ** 0.5
+def sqrt(n):
+    return n ** 0.5
+    ans = n ** 0.5
 
-print ("The square root of number" number, "is" ans, )
+print ("The square root of number" n "is" ans, )
+
+sqrt (4)
