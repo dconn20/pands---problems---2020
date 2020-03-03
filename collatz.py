@@ -6,7 +6,7 @@
 # Have the program end if the current value is one.
 
 
-Y = int(input( "Enter Numer: "))
+Y = float(input( "Enter Numer: "))
 Z = 2
 
 while Y > 1:
