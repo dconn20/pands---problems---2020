@@ -8,12 +8,12 @@ import datetime
 import calendar
 
 
-#dayname = {0:"Monday", 1:"Tuesday", 2:"Wednesday", 3:"Thursday" , 4:"Friday", 5:"Saturday", 6:"Sunday"}
+Day = {0:"Monday", 1:"Tuesday", 2:"Wednesday", 3:"Thursday" , 4:"Friday", 5:"Saturday", 6:"Sunday"}
 
 now = datetime.datetime.today().weekday()
 weekend = (5, 7)
 
 if now == weekend:
-    print ("Today is the Weekend")
+    print ("Today is", Day[now], "the Weekend")
 else:
-    print ("Today is a weekday")
+    print ("Today is", Day[now], "a weekday")
