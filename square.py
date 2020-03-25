@@ -11,7 +11,7 @@ def sqrt(n):
     return ans
     
 
-#sqrt(n)
+sqrt(20)
 
 
 def newsq(number, number_iters = 500):
@@ -23,4 +23,4 @@ def newsq(number, number_iters = 500):
     #print(number)
 
 
-newsq(9)
+#newsq(20)
