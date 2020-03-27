@@ -2,7 +2,7 @@
 # A funtion to square numbers
 
 
-#n = float(input("enter a positive number "))
+n = float(input("enter a positive number "))
 
 def sqrt(n): 
     
@@ -11,7 +11,7 @@ def sqrt(n):
     return ans
     
 
-sqrt(20)
+sqrt(n)
 
 
 def newsq(number, number_iters = 500):
@@ -22,5 +22,4 @@ def newsq(number, number_iters = 500):
         return number
     #print(number)
 
-
-#newsq(20)
+newsq(10)

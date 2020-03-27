@@ -3,12 +3,8 @@
 # not today is a weekday. 
 
 
-
 import datetime
 import calendar
-
-
-
 
 Day = ("Monday", "Tuesday", "Wednesday", "Thursday" , "Friday", "Saturday", "Sunday")
 

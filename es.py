@@ -1,6 +1,6 @@
 # Damien Connolly
 # A program that reads in a text file and outputs 
-# the number of e's it contains
+# the number of a specific letter it contains
 
 fn = input("Enter file name: ")
 l = input("Enter letter to be searched: ")
@@ -9,7 +9,7 @@ k = 0
 
 with open(fn, 'r') as f:
     for line in f:
-        words = line.split()
+        words = line
         for i in words:
             for letter in i:
                 if(letter==l):
@@ -17,5 +17,3 @@ with open(fn, 'r') as f:
 print("Occurrences of the letter:",k,)
 
     
-
-
