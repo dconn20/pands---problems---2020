@@ -23,10 +23,17 @@ def h(x):
     plt.plot(x)
     plt.show()
 
+plt.plot(x)
+
 
 f(x)
 g(x)
 h(x)
+
+# red dashes, blue squares and green triangles
+plt.plot(x, x, 'r--', x, x**2, 'b--', x, x**3, 'g--')
+plt.show()
+
 
 
 
