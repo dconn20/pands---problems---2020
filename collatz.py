@@ -6,14 +6,15 @@
 # Have the program end if the current value is one.
 
 
-Y = float(input( "Enter Numer: "))
+Y = int(input( "Enter Numer: "))
 Z = 2
 
 while Y > 1:
     if Y % Z == 0:
         Y /= 2
-        print (Y,end= '') 
 
     else:
         Y = (Y * 3) + 1
-        print (Y,end= '')
+        
+
+    print (Y,end= '')
