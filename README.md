@@ -2,13 +2,13 @@
 
 This respository contains problems designed for Programming and Scripting module using Python. 
 Problems to be corrected in this include:
-  BMI
-  Secondstring
-  Collatz
-  Weekday
-  Square
-  Es
-  Plots
+  BMI,
+  Secondstring,
+  Collatz,
+  Weekday,
+  Square,
+  Es,
+  Plots.
   
   
 BMI - This program calculates somebody's Body Mass Index (BMI). The inputs are the person's height in centimetres and weight in               kilograms. The output is their weight divided by their height in metres squared.
