@@ -6,15 +6,15 @@
 # Have the program end if the current value is one.
 
 
-Y = int(input( "Enter Numer: "))
+Pos = int(input( "Enter Number: "))
 Z = 2
 
-while Y > 1:
-    if Y % Z == 0:
-        Y /= 2
+while Pos > 1:
+    if Pos % Z == 0:
+        Pos /= 2
 
     else:
-        Y = (Y * 3) + 1
+        Pos = (Pos * 3) + 1
         
 
-    print (Y,end= '')
+    print (Pos,end= '')

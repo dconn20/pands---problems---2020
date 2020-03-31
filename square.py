@@ -14,12 +14,12 @@ def sqrt(n):
 sqrt(n)
 
 
-def newsq(number, number_iters = 500):
-    x = float(number)
-    for i in range(number_iters):
-        number = 0.5 * (number + x / number)
+def newsq(number):
+    x = int(number)
+    for i in range(number):
+        number = (number + x / number) ** (1/2) 
         print(number)
         return number
-    #print(number)
+        
 
-newsq(10)
+newsq(16)

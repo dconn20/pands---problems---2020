@@ -10,23 +10,23 @@ x = np.arange (0, 4)
 def f(x):
     (x) = x
     plt.plot(x, 'r--')
-    #plt.show()
+    
 
 def g(x): 
      x= x**2
      plt.plot(x, 'b--')
-     #plt.show()
+    
   
 
 def h(x): 
     x = x**3
     plt.plot(x, 'g--')
-    plt.show()
+    
 
 f(x)
 g(x)
 h(x)
-
+plt.show()
 
 
 # Displays all functions on same graph.
